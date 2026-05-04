@@ -19,9 +19,6 @@ const Header = () => {
           <Link to="/businesses" className="text-gray-700 hover:text-blue-600 text-lg font-medium transition-colors duration-200">
             Businesses
           </Link>
-          <Link to="/submit" className="px-4 py-2 bg-blue-600 text-white rounded-lg shadow-sm hover:bg-blue-700 transition-colors duration-200 text-lg font-medium">
-            Flag Insurance
-          </Link>
           <Link to="/about" className="text-gray-700 hover:text-blue-600 text-lg font-medium transition-colors duration-200">
             About
           </Link>
@@ -80,13 +77,6 @@ const Header = () => {
             onClick={() => setIsOpen(false)}
           >
             Businesses
-          </Link>
-          <Link
-            to="/submit"
-            className="block px-4 py-2 text-blue-600 font-bold hover:bg-blue-50 transition-colors duration-200 text-base"
-            onClick={() => setIsOpen(false)}
-          >
-            Flag Insurance
           </Link>
           <Link
             to="/about"
